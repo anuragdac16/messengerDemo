@@ -21,6 +21,7 @@ public class MyResource {
     @Produces(MediaType.TEXT_PLAIN)
     public String getIt() {
     	System.out.println("Added toGit");
+    	System.out.println("Commit toGit");
         return "Got it!";
     }
 }
